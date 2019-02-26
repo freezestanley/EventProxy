@@ -1,6 +1,6 @@
 {
   "name": "dom-event-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DOM EventListener EventProxy",
   "main": "index.js",
   "scripts": {
