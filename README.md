@@ -4,7 +4,7 @@ DOM EventListener EventProxy
 # proxy dom event
 
 ```
-import EventProxy from 'proxyEvent'
+import EventProxy from 'dom-event-proxy'
 const eventproxy = new EventProxy()
 eventproxy.callback = function (ev) {
   debugger

@@ -1,11 +1,17 @@
 {
-  "name": "proxyEvent",
+  "name": "dom-event-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "DOM EventListener EventProxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/freezestanley/EventProxy.git"
+    }
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC"
