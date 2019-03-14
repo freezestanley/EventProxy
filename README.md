@@ -24,3 +24,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 # const eventproxy = new EventProxy() 
 > 页面最开始地方引入
 > 当dom 元素被绑定事件后 会有__eventList 属性 里面存放 dom绑定事件列队
+
+
+
+
+
+
