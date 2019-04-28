@@ -1,6 +1,6 @@
 {
   "name": "event-shadow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "DOM EventListener Proxy",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,12 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "add-asset-html-webpack-plugin": "^3.1.3",
+    "babel-eslint": "^10.0.1",
     "clean-webpack-plugin": "^2.0.0",
     "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-loader": "^2.1.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "happypack": "^5.0.1",
     "html-webpack-plugin": "^3.2.0",
