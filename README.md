@@ -1,5 +1,4 @@
 # EventProxy
-DOM EventListener EventProxy
 
 # proxy dom event
 
