@@ -59,7 +59,7 @@ a()
 // {value: "123"}
 // {name: "obj"}
 ```
-> Event
+> taskQuene
 + taskQuene | event = [] callback list, param 参数, argthis
 
 
