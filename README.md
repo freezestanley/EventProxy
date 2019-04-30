@@ -33,6 +33,15 @@ new ProxyEvent(options)
 + addBeforeGuard(callback)  | callback 回调函数事件在所有事件之前执行  | 每次都会触发
 + addAfterGuard(callback)  | callback 回调函数事件在所有事件之前执行  | 每次都会触发
 
+> noShadow
+```
+new ProxyEvent({node: [document]})
+document.addEventListener('click', function (e) { }, {noShadow: true})
+document.removeEventListener('click', function (e) { }, {noShadow: true})
+
+```
+noShadow 开启影子模式 则firstGuard、 addBeforeGuard、 addAfterGuard、 onBeforeGuard、 onAfterGuard 将不会触发
+
 ## taskQuene
 ```
 import { taskQuene } from 'event-shadow'
