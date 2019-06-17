@@ -1,6 +1,6 @@
 {
   "name": "event-shadow",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "DOM EventListener Proxy",
   "main": "index.js",
   "scripts": {
